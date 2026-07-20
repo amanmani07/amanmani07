@@ -2,9 +2,21 @@
   <img src="./banner.jpg" alt="Raja Amman Banner" width="100%" />
 </p>
 
----
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1200&color=00D9FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Raja+Amman;Artificial+Intelligence+Student;Machine+Learning+%7C+Computer+Vision;Unity+Game+Developer;Python+Developer;Always+Learning+Something+New" alt="Typing SVG"/>
+  </a>
+</div>
 
-<h1 align="center">👨‍💻 Raja Amman</h1>
+<div align="center">
+  <a href="https://github.com/amanmani07?tab=followers">
+    <img src="https://img.shields.io/badge/Followers-45-00D9FF?style=for-the-badge&logo=github&labelColor=0D1117" alt="followers"/>
+  </a>
+  <a href="https://github.com/amanmani07">
+    <img src="https://img.shields.io/badge/Stars-34-00D9FF?style=for-the-badge&logo=star&labelColor=0D1117" alt="stars" />
+  </a>
+  <img src="https://img.shields.io/badge/Profile%20Views-102-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github" alt="views"/>
+</div>
 
 <h3 align="center">
 Artificial Intelligence Student • Machine Learning Enthusiast • Unity Developer
@@ -146,8 +158,8 @@ Passionate about building intelligent systems through Artificial Intelligence, M
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
-<a href="mailto:amancom213@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=amancom213@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
 
 </p>
