@@ -119,24 +119,16 @@ Passionate about building intelligent systems through Artificial Intelligence, M
 | 👁️ Computer Vision Labs | OpenCV-based image processing and computer vision experiments. |
 | 🤖 AI & ML Projects | Collection of machine learning and AI-based academic projects. |
 | 🧠 Data Structures & Algorithms | Academic implementations of DSA concepts using C++ and Python. |
-
 ---
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+</picture>
 
 # 📊 GitHub Analytics
-
-<p align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=amanmani07&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanmani07&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=amanmani07&theme=tokyonight&hide_border=true"/>
-
-</p>
 
 <p align="center">
 
