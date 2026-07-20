@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://github.com/amanmani07?tab=followers">
-    <img src="https://img.shields.io/badge/Followers-45-00D9FF?style=for-the-badge&logo=github&labelColor=0D1117" alt="followers"/>
+    <img src="https://img.shields.io/badge/Followers-55-00D9FF?style=for-the-badge&logo=github&labelColor=0D1117" alt="followers"/>
   </a>
   <a href="https://github.com/amanmani07">
     <img src="https://img.shields.io/badge/Stars-34-00D9FF?style=for-the-badge&logo=star&labelColor=0D1117" alt="stars" />
