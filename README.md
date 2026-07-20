@@ -1,20 +1,5 @@
-<!-- ===================================================================================== -->
-<!--                                      BANNER                                          -->
-<!-- Replace the image URL below with your custom GitHub banner                           -->
-<!-- ===================================================================================== -->
-
 <p align="center">
-  <img src="YOUR_BANNER_IMAGE_URL" alt="Raja Amman Banner" width="100%" />
-</p>
-
-<!-- ===================================================================================== -->
-<!--                                   TYPING ANIMATION                                   -->
-<!-- ===================================================================================== -->
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1200&color=00D9FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Raja+Amman;Artificial+Intelligence+Student;Machine+Learning+%7C+Computer+Vision;Unity+Game+Developer;Python+Developer;Always+Learning+Something+New" alt="Typing SVG"/>
-  </a>
+  <img src="./banner.jpg" alt="Raja Amman Banner" width="100%" />
 </p>
 
 ---
