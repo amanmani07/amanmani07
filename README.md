@@ -167,5 +167,5 @@ Passionate about building intelligent systems through Artificial Intelligence, M
 ---
 
 <h3 align="center">
-⭐ "Learning today, Building tomorrow."
+⭐ Learning today, Building tomorrow ⭐
 </h3>
