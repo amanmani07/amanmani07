@@ -162,3 +162,10 @@ An end-to-end Natural Language Processing system designed to automatically class
                             │
                             ▼
                     FINAL PREDICTION
+```
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,cpp,cs,unity,opencv,pytorch,tensorflow,sklearn"/>
+<img src="https://skillicons.dev/icons?i=fastapi,postgresql,mysql,git,github,vscode,linux,blender"/>
+</p>
+
+
