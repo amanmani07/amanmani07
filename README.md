@@ -170,7 +170,7 @@ An end-to-end Natural Language Processing system designed to automatically class
 <img src="https://skillicons.dev/icons?i=fastapi,postgresql,mysql,git,github,vscode,linux,blender"/>
 </p>
 
-### AI / Machine Learning
+### 🧠 AI / Machine Learning
 <p align="center">
 <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB"/>
 <img src="https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C"/>
@@ -180,7 +180,7 @@ An end-to-end Natural Language Processing system designed to automatically class
 <img src="https://img.shields.io/badge/YOLO-0D1117?style=for-the-badge&logoColor=00FFFF"/>
 </p>
 
-### Generative AI
+### 🤖 Generative AI
 <p align="center">
 <img src="https://img.shields.io/badge/LLMs-0D1117?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/RAG-0D1117?style=for-the-badge&logoColor=00D9FF"/>
@@ -189,12 +189,12 @@ An end-to-end Natural Language Processing system designed to automatically class
 <img src="https://img.shields.io/badge/NLP-0D1117?style=for-the-badge&logoColor=00D9FF"/>
 </p>
 
-###  Backend & Development
+### 🌐 Backend & Development
 <p align="center">
 <img src="https://skillicons.dev/icons?i=fastapi,postgresql,mysql,git,github,vscode,linux"/>
 </p>
 
-### Game & 3D Development
+### 🎮 Game & 3D Development
 <p align="center">
 <img src="https://skillicons.dev/icons?i=unity,cs,cpp,blender"/>
 </p>
@@ -202,6 +202,7 @@ An end-to-end Natural Language Processing system designed to automatically class
 ### 🎓 Education
 
 🎓 Bachelor of Science in Artificial Intelligence (BSAI)
+
 📍 National University of Modern Languages (NUML)
 
 ### 📊 GitHub Analytics
@@ -211,13 +212,14 @@ An end-to-end Natural Language Processing system designed to automatically class
 
 
 ### 🐍 Contribution Activity
-<p align="center">
+
 <picture>
-<source
-media="(prefers-color-scheme: dark)"
-srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
 </picture>
-</p>
 
 ### 🌐 Connect With Me
 <p align="center">
@@ -238,7 +240,7 @@ srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution
 </h3>
 <p align="center">
 </p>
-```
+
 
 
 
