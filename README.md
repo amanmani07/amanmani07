@@ -163,9 +163,22 @@ An end-to-end Natural Language Processing system designed to automatically class
                             ▼
                     FINAL PREDICTION
 ```
+
+### 🔬 AI Engineering Stack
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,cpp,cs,unity,opencv,pytorch,tensorflow,sklearn"/>
 <img src="https://skillicons.dev/icons?i=fastapi,postgresql,mysql,git,github,vscode,linux,blender"/>
 </p>
+
+### AI / Machine Learning
+<p align="center">
+<img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB"/>
+<img src="https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C"/>
+<img src="https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikit-learn&logoColor=F7931E"/>
+<img src="https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8"/>
+<img src="https://img.shields.io/badge/YOLO-0D1117?style=for-the-badge&logoColor=00FFFF"/>
+</p>
+
 
 
