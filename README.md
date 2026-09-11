@@ -180,5 +180,69 @@ An end-to-end Natural Language Processing system designed to automatically class
 <img src="https://img.shields.io/badge/YOLO-0D1117?style=for-the-badge&logoColor=00FFFF"/>
 </p>
 
+### Generative AI
+<p align="center">
+<img src="https://img.shields.io/badge/LLMs-0D1117?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/RAG-0D1117?style=for-the-badge&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/AI%20Agents-0D1117?style=for-the-badge&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Embeddings-0D1117?style=for-the-badge&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/NLP-0D1117?style=for-the-badge&logoColor=00D9FF"/>
+</p>
+
+###  Backend & Development
+<p align="center">
+<img src="https://skillicons.dev/icons?i=fastapi,postgresql,mysql,git,github,vscode,linux"/>
+</p>
+
+### Game & 3D Development
+<p align="center">
+<img src="https://skillicons.dev/icons?i=unity,cs,cpp,blender"/>
+</p>
+
+### 🎓 Education
+
+🎓 Bachelor of Science in Artificial Intelligence (BSAI)
+📍 National University of Modern Languages (NUML)
+
+### 📊 GitHub Analytics
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amanmani07&theme=tokyonight"/>
+</p>
+
+
+### 🐍 Contribution Activity
+<p align="center">
+<picture>
+<source
+media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+</p>
+
+### 🌐 Connect With Me
+<p align="center">
+<a href="https://github.com/amanmani07">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/raja-amman-50b493216/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:amancom213@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</p>
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=amanmani07&label=Profile%20Views&color=00D9FF&style=flat"/>
+</p>
+<h3 align="center">
+</h3>
+<p align="center">
+</p>
+```
+
+
+
+
+
 
 
