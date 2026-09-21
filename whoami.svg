@@ -1,0 +1,588 @@
+<svg
+  width="751"
+  height="810"
+  viewBox="0 0 751 810"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Terminal background gradient -->
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="751" y2="810">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#090C10"/>
+    </linearGradient>
+
+    <!-- Cyan glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="12"
+        flood-color="#000000"
+        flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Typing cursor -->
+    <rect id="cursor"
+      x="0"
+      y="0"
+      width="8"
+      height="19"
+      fill="#00D9FF">
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Clip paths for terminal typing effect -->
+    <clipPath id="line1">
+      <rect x="45" y="135" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="0.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line2">
+      <rect x="45" y="175" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="2s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line3">
+      <rect x="45" y="215" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="3.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line4">
+      <rect x="45" y="255" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line5">
+      <rect x="45" y="330" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="6.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line6">
+      <rect x="45" y="370" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="8s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line7">
+      <rect x="45" y="410" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="9.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line8">
+      <rect x="45" y="450" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="11s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line9">
+      <rect x="45" y="490" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="12.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line10">
+      <rect x="45" y="530" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="14s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line11">
+      <rect x="45" y="570" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="15.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line12">
+      <rect x="45" y="610" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="17s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line13">
+      <rect x="45" y="650" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="18.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="line14">
+      <rect x="45" y="690" width="0" height="30">
+        <animate
+          attributeName="width"
+          from="0"
+          to="650"
+          dur="1.5s"
+          begin="20s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
+  </defs>
+
+  <!-- Main terminal -->
+  <rect
+    x="8"
+    y="8"
+    width="735"
+    height="794"
+    rx="14"
+    fill="url(#terminalBg)"
+    stroke="#30363D"
+    stroke-width="2"
+    filter="url(#shadow)"
+  />
+
+  <!-- Terminal top bar -->
+  <rect
+    x="8"
+    y="8"
+    width="735"
+    height="48"
+    rx="14"
+    fill="#161B22"
+  />
+
+  <!-- Hide bottom rounded corners of header -->
+  <rect
+    x="8"
+    y="34"
+    width="735"
+    height="22"
+    fill="#161B22"
+  />
+
+  <!-- macOS terminal buttons -->
+  <circle cx="32" cy="32" r="7" fill="#FF5F56"/>
+  <circle cx="56" cy="32" r="7" fill="#FFBD2E"/>
+  <circle cx="80" cy="32" r="7" fill="#27C93F"/>
+
+  <!-- Terminal title -->
+  <text
+    x="375"
+    y="37"
+    text-anchor="middle"
+    font-family="SFMono-Regular,Consolas,Monaco,monospace"
+    font-size="14"
+    fill="#8B949E">
+    amanmani07: ~/whoami
+  </text>
+
+  <!-- Terminal prompt -->
+  <text
+    x="38"
+    y="95"
+    font-family="SFMono-Regular,Consolas,Monaco,monospace"
+    font-size="15"
+    fill="#00D9FF">
+    amanmani07@github
+  </text>
+
+  <text
+    x="195"
+    y="95"
+    font-family="SFMono-Regular,Consolas,Monaco,monospace"
+    font-size="15"
+    fill="#8B949E">
+    :
+  </text>
+
+  <text
+    x="205"
+    y="95"
+    font-family="SFMono-Regular,Consolas,Monaco,monospace"
+    font-size="15"
+    fill="#58A6FF">
+    ~/whoami
+  </text>
+
+  <text
+    x="290"
+    y="95"
+    font-family="SFMono-Regular,Consolas,Monaco,monospace"
+    font-size="15"
+    fill="#C9D1D9">
+    $
+  </text>
+
+  <text
+    x="310"
+    y="95"
+    font-family="SFMono-Regular,Consolas,Monaco,monospace"
+    font-size="15"
+    fill="#F0F6FC">
+    whoami
+  </text>
+
+  <!-- NAME -->
+  <g clip-path="url(#line1)">
+    <text
+      x="45"
+      y="155"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="22"
+      font-weight="bold"
+      fill="#00D9FF"
+      filter="url(#glow)">
+      Raja Amman
+    </text>
+  </g>
+
+  <!-- TITLE -->
+  <g clip-path="url(#line2)">
+    <text
+      x="45"
+      y="195"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="17"
+      fill="#F0F6FC">
+      Artificial Intelligence Student
+    </text>
+  </g>
+
+  <!-- SPECIALIZATION -->
+  <g clip-path="url(#line3)">
+    <text
+      x="45"
+      y="235"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="16"
+      fill="#8B949E">
+      Machine Learning • Generative AI • RAG
+    </text>
+  </g>
+
+  <!-- SECOND SPECIALIZATION -->
+  <g clip-path="url(#line4)">
+    <text
+      x="45"
+      y="275"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="16"
+      fill="#8B949E">
+      Computer Vision • NLP • Reinforcement Learning
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line
+    x1="42"
+    y1="305"
+    x2="709"
+    y2="305"
+    stroke="#21262D"
+    stroke-width="2"
+  />
+
+  <!-- Current Focus prompt -->
+  <g clip-path="url(#line5)">
+    <text
+      x="45"
+      y="350"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="16"
+      fill="#00D9FF">
+      $ current_focus
+    </text>
+  </g>
+
+  <!-- AI -->
+  <g clip-path="url(#line6)">
+    <text
+      x="45"
+      y="390"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      AI
+    </text>
+
+    <text
+      x="100"
+      y="390"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      [████████████████████]
+    </text>
+  </g>
+
+  <!-- ML -->
+  <g clip-path="url(#line7)">
+    <text
+      x="45"
+      y="430"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      ML
+    </text>
+
+    <text
+      x="100"
+      y="430"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      [██████████████████  ]
+    </text>
+  </g>
+
+  <!-- GenAI -->
+  <g clip-path="url(#line8)">
+    <text
+      x="45"
+      y="470"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      GenAI
+    </text>
+
+    <text
+      x="100"
+      y="470"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      [█████████████████   ]
+    </text>
+  </g>
+
+  <!-- Computer Vision -->
+  <g clip-path="url(#line9)">
+    <text
+      x="45"
+      y="510"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      CV
+    </text>
+
+    <text
+      x="100"
+      y="510"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      [████████████████    ]
+    </text>
+  </g>
+
+  <!-- RAG -->
+  <g clip-path="url(#line10)">
+    <text
+      x="45"
+      y="550"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      RAG
+    </text>
+
+    <text
+      x="100"
+      y="550"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      [████████████████    ]
+    </text>
+  </g>
+
+  <!-- RL -->
+  <g clip-path="url(#line11)">
+    <text
+      x="45"
+      y="590"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      RL
+    </text>
+
+    <text
+      x="100"
+      y="590"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      [███████████████     ]
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line
+    x1="42"
+    y1="620"
+    x2="709"
+    y2="620"
+    stroke="#21262D"
+    stroke-width="2"
+  />
+
+  <!-- Status -->
+  <g clip-path="url(#line12)">
+    <text
+      x="45"
+      y="640"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#00D9FF">
+      $ status
+    </text>
+  </g>
+
+  <g clip-path="url(#line13)">
+    <text
+      x="45"
+      y="675"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#58A6FF">
+      &gt;
+    </text>
+
+    <text
+      x="65"
+      y="675"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      Learning • Building • Experimenting
+    </text>
+  </g>
+
+  <g clip-path="url(#line14)">
+    <text
+      x="45"
+      y="715"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#58A6FF">
+      &gt;
+    </text>
+
+    <text
+      x="65"
+      y="715"
+      font-family="SFMono-Regular,Consolas,Monaco,monospace"
+      font-size="15"
+      fill="#C9D1D9">
+      Turning ideas into intelligent systems
+    </text>
+  </g>
+
+  <!-- Blinking cursor -->
+  <rect
+    x="45"
+    y="750"
+    width="9"
+    height="18"
+    fill="#00D9FF">
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>
